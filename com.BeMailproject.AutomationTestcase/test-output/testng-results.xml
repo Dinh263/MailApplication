@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1796185" started-at="2016-08-19T12:28:36Z" finished-at="2016-08-19T12:58:32Z">
+    <groups>
+      <group name="Account2ForwardMail">
+        <method signature="TestForwardMail.checkAccount2ForwardMailSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Testcases.TestForwardMail@4883b407]" name="checkAccount2ForwardMailSuccessfully" class="Testcases.TestForwardMail"/>
+      </group> <!-- Account2ForwardMail -->
+      <group name="sendMail">
+        <method signature="TestForwardMail.account01sendMailToAccount02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestForwardMail@4883b407]" name="account01sendMailToAccount02" class="Testcases.TestForwardMail"/>
+      </group> <!-- sendMail -->
+      <group name="forwardMail">
+        <method signature="TestForwardMail.account2ForwardMailToAccount3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestForwardMail@4883b407]" name="account2ForwardMailToAccount3" class="Testcases.TestForwardMail"/>
+      </group> <!-- forwardMail -->
+    </groups>
+    <test name="Default test" duration-ms="1796185" started-at="2016-08-19T12:28:36Z" finished-at="2016-08-19T12:58:32Z">
+      <class name="Testcases.TestForwardMail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.TestForwardMail@4883b407]" name="setUp" is-config="true" duration-ms="41625" started-at="2016-08-19T19:28:36Z" finished-at="2016-08-19T19:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToHomeScreenOfAccount1()[pri:0, instance:Testcases.TestForwardMail@4883b407]" name="goToHomeScreenOfAccount1" is-config="true" duration-ms="6527" started-at="2016-08-19T19:29:18Z" finished-at="2016-08-19T19:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomeScreenOfAccount1 -->
+        <test-method status="PASS" signature="account01sendMailToAccount02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestForwardMail@4883b407]" name="account01sendMailToAccount02" duration-ms="255691" started-at="2016-08-19T19:29:24Z" data-provider="dataForForward" finished-at="2016-08-19T19:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m1 test forward long mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edward FitzGerald was born at Bredfield House in Suffolk, an old Jacobean
+mansion about two miles from Woodbridge, on the 31st of March, 1809.  He
+was the third son of John Purcell, who married his cousin Mary Frances
+FitzGerald, and upon the death of her father in 1818 took the name and
+arms of FitzGerald.  In 1816 Mr. Purcell went to France, and for a time
+settled with his family at St. Germains.  FitzGerald in later life would
+often speak of the royal hunting parties which he remembered seeing in
+the forest.  They afterwards removed to Paris, occupying the house in
+which Robespierre had once lived, and here FitzGerald had for his
+drillmaster one of Napoleon's Old Guard.  Even at this early period the
+vivacious humour which afterwards characterized him appears to have shewn
+itself, for his father writing to some friends in England speaks of
+little Edward keeping the whole family in good spirits by his unfailing
+fun and droll speeches.  The dramatic circumstances of the assassination
+of M. Fualdes, a magistrate at Rodez, in 1817, and the remarkable trial
+which followed, fastened themselves on FitzGerald's memory, and he was
+familiar with all the details which he had heard spoken of when quite a
+child in Paris.  In 1821 he was sent to King Edward the Sixth's School at
+Bury St. Edmunds, where his two elder brothers were already under the
+charge of Dr. Malkin, who, like himself in after life, was a great
+admirer of Crabbe. Among his schoolfellows were James.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test6.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account01sendMailToAccount02 -->
+        <test-method status="PASS" signature="account01sendMailToAccount02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestForwardMail@4883b407]" name="account01sendMailToAccount02" duration-ms="108822" started-at="2016-08-19T19:33:40Z" data-provider="dataForForward" finished-at="2016-08-19T19:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m2 test forward medium mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check below mail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[there is a dog sitting there under the tabel. The table has made great efforts to create an advantageous business environment and build suitable  to help people start their businesses and assist them afterwards. However, it is not easy to reach the goal of having a million enterprises by 2020]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test7.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account01sendMailToAccount02 -->
+        <test-method status="PASS" signature="account01sendMailToAccount02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestForwardMail@4883b407]" name="account01sendMailToAccount02" duration-ms="118520" started-at="2016-08-19T19:35:29Z" data-provider="dataForForward" finished-at="2016-08-19T19:37:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m3 test forward mail with attached]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test1.txt]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check new subject]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[condition is the best thing.
+there is a show in the hometown. Then we have independent country like Vietname today. 
+To support South Vietnam's struggle against the communist insurgency.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account01sendMailToAccount02 -->
+        <test-method status="PASS" signature="account01sendMailToAccount02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestForwardMail@4883b407]" name="account01sendMailToAccount02" duration-ms="58071" started-at="2016-08-19T19:37:27Z" data-provider="dataForForward" finished-at="2016-08-19T19:38:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m4 test forward special char]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[checking the first new,
+The first day go to school. New friends, new people and new application. 
+We need to test other  application also. 
+All the best. 
+Thanks]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Hello from vice president,
+this is an information about the travelling.
+Best thing you should know is the dam thing. 
+The famous singer in the town today he will show you the attendsion
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account01sendMailToAccount02 -->
+        <test-method status="PASS" signature="account01sendMailToAccount02(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestForwardMail@4883b407]" name="account01sendMailToAccount02" duration-ms="56939" started-at="2016-08-19T19:38:26Z" data-provider="dataForForward" finished-at="2016-08-19T19:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m5 test forward shortmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[I sat on the rug, biding my time, drinking her wine 
+We talked until two and then she said, It's time for bed
+She told me she worked in the morning.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[cong hoa xa hoi chu nghia viet nam doc lap tu do hanh phuc.
+Toi ten la Johndy, first person on this board.
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.
+Are you usre you want to check out this room. this room is a mess and noboby can access this room cause it is very usefully.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account01sendMailToAccount02 -->
+        <test-method status="PASS" signature="swtichToAccount2()[pri:0, instance:Testcases.TestForwardMail@4883b407]" name="swtichToAccount2" is-config="true" duration-ms="317306" started-at="2016-08-19T19:39:22Z" finished-at="2016-08-19T19:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swtichToAccount2 -->
+        <test-method status="PASS" signature="account2ForwardMailToAccount3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestForwardMail@4883b407]" name="account2ForwardMailToAccount3" duration-ms="37151" started-at="2016-08-19T19:44:40Z" data-provider="dataForForward" finished-at="2016-08-19T19:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m1 test forward long mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edward FitzGerald was born at Bredfield House in Suffolk, an old Jacobean
+mansion about two miles from Woodbridge, on the 31st of March, 1809.  He
+was the third son of John Purcell, who married his cousin Mary Frances
+FitzGerald, and upon the death of her father in 1818 took the name and
+arms of FitzGerald.  In 1816 Mr. Purcell went to France, and for a time
+settled with his family at St. Germains.  FitzGerald in later life would
+often speak of the royal hunting parties which he remembered seeing in
+the forest.  They afterwards removed to Paris, occupying the house in
+which Robespierre had once lived, and here FitzGerald had for his
+drillmaster one of Napoleon's Old Guard.  Even at this early period the
+vivacious humour which afterwards characterized him appears to have shewn
+itself, for his father writing to some friends in England speaks of
+little Edward keeping the whole family in good spirits by his unfailing
+fun and droll speeches.  The dramatic circumstances of the assassination
+of M. Fualdes, a magistrate at Rodez, in 1817, and the remarkable trial
+which followed, fastened themselves on FitzGerald's memory, and he was
+familiar with all the details which he had heard spoken of when quite a
+child in Paris.  In 1821 he was sent to King Edward the Sixth's School at
+Bury St. Edmunds, where his two elder brothers were already under the
+charge of Dr. Malkin, who, like himself in after life, was a great
+admirer of Crabbe. Among his schoolfellows were James.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test6.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account2ForwardMailToAccount3 -->
+        <test-method status="PASS" signature="account2ForwardMailToAccount3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestForwardMail@4883b407]" name="account2ForwardMailToAccount3" duration-ms="101717" started-at="2016-08-19T19:45:17Z" data-provider="dataForForward" finished-at="2016-08-19T19:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m2 test forward medium mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check below mail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[there is a dog sitting there under the tabel. The table has made great efforts to create an advantageous business environment and build suitable  to help people start their businesses and assist them afterwards. However, it is not easy to reach the goal of having a million enterprises by 2020]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test7.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account2ForwardMailToAccount3 -->
+        <test-method status="PASS" signature="account2ForwardMailToAccount3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestForwardMail@4883b407]" name="account2ForwardMailToAccount3" duration-ms="92399" started-at="2016-08-19T19:46:59Z" data-provider="dataForForward" finished-at="2016-08-19T19:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m3 test forward mail with attached]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test1.txt]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check new subject]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[condition is the best thing.
+there is a show in the hometown. Then we have independent country like Vietname today. 
+To support South Vietnam's struggle against the communist insurgency.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account2ForwardMailToAccount3 -->
+        <test-method status="PASS" signature="account2ForwardMailToAccount3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestForwardMail@4883b407]" name="account2ForwardMailToAccount3" duration-ms="89533" started-at="2016-08-19T19:48:31Z" data-provider="dataForForward" finished-at="2016-08-19T19:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m4 test forward special char]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[checking the first new,
+The first day go to school. New friends, new people and new application. 
+We need to test other  application also. 
+All the best. 
+Thanks]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Hello from vice president,
+this is an information about the travelling.
+Best thing you should know is the dam thing. 
+The famous singer in the town today he will show you the attendsion
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account2ForwardMailToAccount3 -->
+        <test-method status="PASS" signature="account2ForwardMailToAccount3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestForwardMail@4883b407]" name="account2ForwardMailToAccount3" duration-ms="100933" started-at="2016-08-19T19:50:01Z" data-provider="dataForForward" finished-at="2016-08-19T19:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m5 test forward shortmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[I sat on the rug, biding my time, drinking her wine 
+We talked until two and then she said, It's time for bed
+She told me she worked in the morning.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[cong hoa xa hoi chu nghia viet nam doc lap tu do hanh phuc.
+Toi ten la Johndy, first person on this board.
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.
+Are you usre you want to check out this room. this room is a mess and noboby can access this room cause it is very usefully.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account2ForwardMailToAccount3 -->
+        <test-method status="PASS" signature="switchToSentBoxAccount2ToCheckForwardSuccessfully()[pri:0, instance:Testcases.TestForwardMail@4883b407]" name="switchToSentBoxAccount2ToCheckForwardSuccessfully" is-config="true" duration-ms="17733" started-at="2016-08-19T19:51:42Z" finished-at="2016-08-19T19:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToSentBoxAccount2ToCheckForwardSuccessfully -->
+        <test-method status="PASS" signature="checkAccount2ForwardMailSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Testcases.TestForwardMail@4883b407]" name="checkAccount2ForwardMailSuccessfully" duration-ms="15452" started-at="2016-08-19T19:52:00Z" data-provider="dataForForward" finished-at="2016-08-19T19:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m1 test forward long mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edward FitzGerald was born at Bredfield House in Suffolk, an old Jacobean
+mansion about two miles from Woodbridge, on the 31st of March, 1809.  He
+was the third son of John Purcell, who married his cousin Mary Frances
+FitzGerald, and upon the death of her father in 1818 took the name and
+arms of FitzGerald.  In 1816 Mr. Purcell went to France, and for a time
+settled with his family at St. Germains.  FitzGerald in later life would
+often speak of the royal hunting parties which he remembered seeing in
+the forest.  They afterwards removed to Paris, occupying the house in
+which Robespierre had once lived, and here FitzGerald had for his
+drillmaster one of Napoleon's Old Guard.  Even at this early period the
+vivacious humour which afterwards characterized him appears to have shewn
+itself, for his father writing to some friends in England speaks of
+little Edward keeping the whole family in good spirits by his unfailing
+fun and droll speeches.  The dramatic circumstances of the assassination
+of M. Fualdes, a magistrate at Rodez, in 1817, and the remarkable trial
+which followed, fastened themselves on FitzGerald's memory, and he was
+familiar with all the details which he had heard spoken of when quite a
+child in Paris.  In 1821 he was sent to King Edward the Sixth's School at
+Bury St. Edmunds, where his two elder brothers were already under the
+charge of Dr. Malkin, who, like himself in after life, was a great
+admirer of Crabbe. Among his schoolfellows were James.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test6.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccount2ForwardMailSuccessfully -->
+        <test-method status="PASS" signature="checkAccount2ForwardMailSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Testcases.TestForwardMail@4883b407]" name="checkAccount2ForwardMailSuccessfully" duration-ms="17620" started-at="2016-08-19T19:52:15Z" data-provider="dataForForward" finished-at="2016-08-19T19:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m2 test forward medium mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check below mail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[there is a dog sitting there under the tabel. The table has made great efforts to create an advantageous business environment and build suitable  to help people start their businesses and assist them afterwards. However, it is not easy to reach the goal of having a million enterprises by 2020]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test7.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccount2ForwardMailSuccessfully -->
+        <test-method status="PASS" signature="checkAccount2ForwardMailSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Testcases.TestForwardMail@4883b407]" name="checkAccount2ForwardMailSuccessfully" duration-ms="4638" started-at="2016-08-19T19:52:33Z" data-provider="dataForForward" finished-at="2016-08-19T19:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m3 test forward mail with attached]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test1.txt]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check new subject]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[condition is the best thing.
+there is a show in the hometown. Then we have independent country like Vietname today. 
+To support South Vietnam's struggle against the communist insurgency.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccount2ForwardMailSuccessfully -->
+        <test-method status="PASS" signature="checkAccount2ForwardMailSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Testcases.TestForwardMail@4883b407]" name="checkAccount2ForwardMailSuccessfully" duration-ms="4846" started-at="2016-08-19T19:52:37Z" data-provider="dataForForward" finished-at="2016-08-19T19:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m4 test forward special char]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[checking the first new,
+The first day go to school. New friends, new people and new application. 
+We need to test other  application also. 
+All the best. 
+Thanks]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Hello from vice president,
+this is an information about the travelling.
+Best thing you should know is the dam thing. 
+The famous singer in the town today he will show you the attendsion
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccount2ForwardMailSuccessfully -->
+        <test-method status="PASS" signature="checkAccount2ForwardMailSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Testcases.TestForwardMail@4883b407]" name="checkAccount2ForwardMailSuccessfully" duration-ms="4520" started-at="2016-08-19T19:52:42Z" data-provider="dataForForward" finished-at="2016-08-19T19:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m5 test forward shortmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[I sat on the rug, biding my time, drinking her wine 
+We talked until two and then she said, It's time for bed
+She told me she worked in the morning.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[cong hoa xa hoi chu nghia viet nam doc lap tu do hanh phuc.
+Toi ten la Johndy, first person on this board.
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.
+Are you usre you want to check out this room. this room is a mess and noboby can access this room cause it is very usefully.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccount2ForwardMailSuccessfully -->
+        <test-method status="PASS" signature="switchToAccount3AndWaitForNewMails()[pri:0, instance:Testcases.TestForwardMail@4883b407]" name="switchToAccount3AndWaitForNewMails" is-config="true" duration-ms="321420" started-at="2016-08-19T19:52:47Z" finished-at="2016-08-19T19:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToAccount3AndWaitForNewMails -->
+        <test-method status="PASS" signature="testAccount3ReceiveCorrectForwardEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testcases.TestForwardMail@4883b407]" name="testAccount3ReceiveCorrectForwardEmail" duration-ms="4851" started-at="2016-08-19T19:58:08Z" data-provider="dataForForward" finished-at="2016-08-19T19:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m1 test forward long mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edward FitzGerald was born at Bredfield House in Suffolk, an old Jacobean
+mansion about two miles from Woodbridge, on the 31st of March, 1809.  He
+was the third son of John Purcell, who married his cousin Mary Frances
+FitzGerald, and upon the death of her father in 1818 took the name and
+arms of FitzGerald.  In 1816 Mr. Purcell went to France, and for a time
+settled with his family at St. Germains.  FitzGerald in later life would
+often speak of the royal hunting parties which he remembered seeing in
+the forest.  They afterwards removed to Paris, occupying the house in
+which Robespierre had once lived, and here FitzGerald had for his
+drillmaster one of Napoleon's Old Guard.  Even at this early period the
+vivacious humour which afterwards characterized him appears to have shewn
+itself, for his father writing to some friends in England speaks of
+little Edward keeping the whole family in good spirits by his unfailing
+fun and droll speeches.  The dramatic circumstances of the assassination
+of M. Fualdes, a magistrate at Rodez, in 1817, and the remarkable trial
+which followed, fastened themselves on FitzGerald's memory, and he was
+familiar with all the details which he had heard spoken of when quite a
+child in Paris.  In 1821 he was sent to King Edward the Sixth's School at
+Bury St. Edmunds, where his two elder brothers were already under the
+charge of Dr. Malkin, who, like himself in after life, was a great
+admirer of Crabbe. Among his schoolfellows were James.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test6.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccount3ReceiveCorrectForwardEmail -->
+        <test-method status="PASS" signature="testAccount3ReceiveCorrectForwardEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testcases.TestForwardMail@4883b407]" name="testAccount3ReceiveCorrectForwardEmail" duration-ms="4320" started-at="2016-08-19T19:58:13Z" data-provider="dataForForward" finished-at="2016-08-19T19:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m2 test forward medium mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check below mail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[there is a dog sitting there under the tabel. The table has made great efforts to create an advantageous business environment and build suitable  to help people start their businesses and assist them afterwards. However, it is not easy to reach the goal of having a million enterprises by 2020]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[test7.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccount3ReceiveCorrectForwardEmail -->
+        <test-method status="PASS" signature="testAccount3ReceiveCorrectForwardEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testcases.TestForwardMail@4883b407]" name="testAccount3ReceiveCorrectForwardEmail" duration-ms="4288" started-at="2016-08-19T19:58:18Z" data-provider="dataForForward" finished-at="2016-08-19T19:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m3 test forward mail with attached]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In the end he made Southampton his headquarters and spent several weeks
+there, going on short excursions to visit some college acquaintances.  In
+November he was at Naseby, where his father had a considerable estate,
+including the famous battlefield, of which we shall hear more in his
+later correspondence.  'This place is solitary enough,' he writes to John
+Allen, 'but I am well off in a nice farm-house. I wish you could come
+and see the primitive inhabitants, and the fine field of Naseby.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test1.txt]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[check new subject]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[condition is the best thing.
+there is a show in the hometown. Then we have independent country like Vietname today. 
+To support South Vietnam's struggle against the communist insurgency.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccount3ReceiveCorrectForwardEmail -->
+        <test-method status="PASS" signature="testAccount3ReceiveCorrectForwardEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testcases.TestForwardMail@4883b407]" name="testAccount3ReceiveCorrectForwardEmail" duration-ms="3736" started-at="2016-08-19T19:58:22Z" data-provider="dataForForward" finished-at="2016-08-19T19:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m4 test forward special char]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[checking the first new,
+The first day go to school. New friends, new people and new application. 
+We need to test other  application also. 
+All the best. 
+Thanks]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Hello from vice president,
+this is an information about the travelling.
+Best thing you should know is the dam thing. 
+The famous singer in the town today he will show you the attendsion
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccount3ReceiveCorrectForwardEmail -->
+        <test-method status="PASS" signature="testAccount3ReceiveCorrectForwardEmail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:Testcases.TestForwardMail@4883b407]" name="testAccount3ReceiveCorrectForwardEmail" duration-ms="4211" started-at="2016-08-19T19:58:26Z" data-provider="dataForForward" finished-at="2016-08-19T19:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bdinhnguyen89@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[m5 test forward shortmail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[I sat on the rug, biding my time, drinking her wine 
+We talked until two and then she said, It's time for bed
+She told me she worked in the morning.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cdinhnguyen@outlook.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[cong hoa xa hoi chu nghia viet nam doc lap tu do hanh phuc.
+Toi ten la Johndy, first person on this board.
+Please contact me via phone number or skype. If you have any issue or problem then why don't you call us for help . 
+Thanks tony.
+Are you usre you want to check out this room. this room is a mess and noboby can access this room cause it is very usefully.]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="13">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccount3ReceiveCorrectForwardEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.TestForwardMail@4883b407]" name="tearDown" is-config="true" duration-ms="2453" started-at="2016-08-19T19:58:30Z" finished-at="2016-08-19T19:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.TestForwardMail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
